@@ -1,0 +1,14 @@
+apiVersion: v2
+description: 'Creates a CassandraRestore custom resource instance. This chart should
+  be  used in conjunction with the k8ssandra/medusa-operator chart. '
+home: https://k8ssandra.io/
+maintainers:
+- email: k8ssandra-developers@googlegroups.com
+  name: K8ssandra Team
+  url: https://github.com/k8ssandra
+name: restore
+sources:
+- https://github.com/k8ssandra/k8ssandra
+- https://github.com/k8ssandra/k8ssandra/tree/main/charts/restore
+type: application
+version: 0.27.1

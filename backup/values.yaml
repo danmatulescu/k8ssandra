@@ -1,0 +1,7 @@
+# -- Name of the CassandraBackup custom resource
+name: backup
+
+cassandraDatacenter:
+  # -- Name of the CassandraDatacenter custom resource where the backup is
+  # sourced.
+  name: dc1
